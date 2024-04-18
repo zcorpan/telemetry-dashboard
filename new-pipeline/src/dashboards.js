@@ -1056,7 +1056,7 @@ function getUseCounterLink(metric, channel, description) {
   }
   var group = metricSplit[2];
   var useCounterLink = $("<a>", {
-    href: "http://georgf.github.io/usecounters/#kind=page&group=" + group + "&channel=beta",
+    href: "https://mozilla.github.io/usecounters/#kind=page&group=" + group + "&channel=beta",
     target: "_blank",
     css: {
       color: "black",
